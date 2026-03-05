@@ -8,7 +8,7 @@ Super Puna is an employment platform created by the Government of Kosovo, part o
 
 ## Raw Dataset
 
-The SuperPuna job postings dataset is not included in this repository as it contains scraped third-party data from SuperPuna.com (Kosovo's largest online job portal).
+The SuperPuna job postings dataset is not included in this repository as it contains scraped third-party data from SuperPuna.com .
 
 To replicate this analysis you would need a dataset of Kosovo job postings containing the following columns:
 
@@ -239,3 +239,4 @@ Built entirely in Google Colab using open-source tools and free-tier APIs.
 This project is for academic and research purposes. Job posting data belongs to SuperPuna.com.
 
 ESCO data is published under the [EUPL v1.2 licence](https://esco.ec.europa.eu/en/use-esco/esco-data-legal-notice).
+
