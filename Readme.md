@@ -57,7 +57,7 @@ To re-translate from scratch, simply delete the file from Google Drive before ru
 
 |**ESCO (European Skills, Competences, Qualifications and Occupations)** It is the European multilingual classification system that works like a dictionary, describing and classifying professional occupations and skills relevant to the EU labour market and education |
 
-|**ISCO - International Standard Classification of Occupation**  It is a framework developed by the International Labour Organization (ILO) that organizes all jobs and occupations into a hierarchical structure for statistical and research purposes.|
+|**ISCO (International Standard Classification of Occupation)**  It is a framework developed by the International Labour Organization (ILO) that organizes all jobs and occupations into a hierarchical structure for statistical and research purposes |
 ---
 
 ## Research Questions
@@ -230,5 +230,6 @@ Built entirely in Google Colab using open-source tools and free-tier APIs.
 This project is for academic and research purposes. Job posting data belongs to SuperPuna.com.
 
 ESCO data is published under the [EUPL v1.2 licence](https://esco.ec.europa.eu/en/use-esco/esco-data-legal-notice).
+
 
 
