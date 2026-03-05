@@ -4,6 +4,49 @@ A data analysis project examining the data scraped and gathered about the labor 
 Super Puna is an employment platform created by the Government of Kosovo, part of the Guaranteed Employment scheme designed to help young people access the labor market and assist businesses in hiring young workers.
 
 ---
+# Data
+
+## Raw Dataset
+
+The SuperPuna job postings dataset is not included in this repository as it contains scraped third-party data from SuperPuna.com (Kosovo's largest online job portal).
+
+To replicate this analysis you would need a dataset of Kosovo job postings containing the following columns:
+
+| Column | Description |
+|---|---|
+| `Titulli_i_vendit_te_punes` | Job title (Albanian) |
+| `Numri_i_vendeve_te_lira` | Number of vacancies |
+| `Kompania` | Company name |
+| `Vendi_i_punes` | City or work location |
+| `Orari_i_punes` | Work schedule (time range format HH:MM:SS - HH:MM:SS) |
+| `Paga` | Monthly salary (EUR) |
+| `Data_e_shpalljes` | Posting date |
+| `Kerkest` | Job requirements (free text, Albanian) |
+| `Pergjegjesite` | Job responsibilities (free text, Albanian) |
+| `Kualifikimet` | Qualifications required (free text, Albanian) |
+| `Benefitet` | Benefits offered (free text, Albanian) |
+
+## Included Files
+
+### translation_map.csv
+A dictionary of 6,172 Albanian job titles translated to English, generated during this analysis using the Google Translate free tier via the `deep-translator` library.
+
+This file allows you to skip the 45-minute translation step when running `01_data_cleaning.ipynb`. To use it:
+
+1. Download `translation_map.csv` from this repository
+2. Upload it to your Google Drive at `My Drive/kosovo_lm/translation_map.csv`
+3. Run Notebook 1 — it will detect the file automatically and skip translation
+
+To re-translate from scratch, simply delete the file from Google Drive before running Notebook 1.
+
+## Intermediate Files (Google Drive only)
+
+The following files are produced during the pipeline and saved to Google Drive. They are not included in this repository due to file size.
+
+| File | Produced by | Used by |
+|---|---|---|
+| `superpuna_cleaned.csv` | Notebook 1 | Notebook 2 |
+| `superpuna_standardized.csv` | Notebook 2 | Notebook 3 |
 
 ## Overview
 
@@ -194,4 +237,5 @@ Built entirely in Google Colab using open-source tools and free-tier APIs.
 ## License
 
 This project is for academic and research purposes. Job posting data belongs to SuperPuna.com.
+
 ESCO data is published under the [EUPL v1.2 licence](https://esco.ec.europa.eu/en/use-esco/esco-data-legal-notice).
