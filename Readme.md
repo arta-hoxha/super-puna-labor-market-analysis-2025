@@ -39,15 +39,6 @@ This file allows you to skip the 45-minute translation step when running `01_dat
 
 To re-translate from scratch, simply delete the file from Google Drive before running Notebook 1.
 
-## Intermediate Files (Google Drive only)
-
-The following files are produced during the pipeline and saved to Google Drive. They are not included in this repository due to file size.
-
-| File | Produced by | Used by |
-|---|---|---|
-| `superpuna_cleaned.csv` | Notebook 1 | Notebook 2 |
-| `superpuna_standardized.csv` | Notebook 2 | Notebook 3 |
-
 ## Overview
 
 | | |
@@ -239,4 +230,5 @@ Built entirely in Google Colab using open-source tools and free-tier APIs.
 This project is for academic and research purposes. Job posting data belongs to SuperPuna.com.
 
 ESCO data is published under the [EUPL v1.2 licence](https://esco.ec.europa.eu/en/use-esco/esco-data-legal-notice).
+
 
