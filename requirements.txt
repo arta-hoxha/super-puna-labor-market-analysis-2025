@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+openpyxl
+rapidfuzz
+sentence-transformers
+scikit-learn
+deep-translator
+tqdm
