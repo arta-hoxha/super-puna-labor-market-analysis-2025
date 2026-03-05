@@ -130,7 +130,7 @@ kosovo-labor-market-analysis/
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb         # Load, normalize, translate
 │   ├── 02_esco_standardization.ipynb  # ESCO matching pipeline
-│   └── 03_demand_analysis.ipynb       # All 7 research questions
+│   └── 03_demand_analysis.ipynb       
 │
 ├── data/
 │   ├── occupations_en.csv             # ESCO Dataset version = v1.2.0
@@ -229,6 +229,7 @@ Built entirely in Google Colab using open-source tools and free-tier APIs.
 This project is for academic and research purposes. Job posting data belongs to SuperPuna.com.
 
 ESCO data is published under the [EUPL v1.2 licence](https://esco.ec.europa.eu/en/use-esco/esco-data-legal-notice).
+
 
 
 
