@@ -133,11 +133,10 @@ kosovo-labor-market-analysis/
 │   └── 03_demand_analysis.ipynb       # All 7 research questions
 │
 ├── data/
-│   ├── README.md                      # Data sources and access instructions
+│   ├── occupations_en.csv             # ESCO Dataset version = v1.2.0
 │   └── translation_map.csv            # Albanian -> English title translations
 │
 └── outputs/
-    ├── Kosovo_Labor_Market_Analysis_2025.xlsx
     └── ISCO08_Reference_Sheet.xlsx
 ```
 
@@ -163,11 +162,11 @@ Open each notebook in Google Colab and run all cells top to bottom:
 ```
 01_data_cleaning.ipynb          → produces: df with title_normalized, title_english
 02_esco_standardization.ipynb   → produces: df with esco_occupation, isco_group
-03_demand_analysis.ipynb        → produces: charts + Excel report
+03_demand_analysis.ipynb        → produces: charts 
 ```
 
 ### Step 3 — Outputs
-The final Excel report (`Kosovo_Labor_Market_Analysis_2025.xlsx`) contains 8 sheets covering all research questions, formatted to EU Commission reporting standards.
+The final report  contains  produced in the third notebook covering all research questions, formatted to EU Commission reporting standards.
 
 ---
 
@@ -230,6 +229,7 @@ Built entirely in Google Colab using open-source tools and free-tier APIs.
 This project is for academic and research purposes. Job posting data belongs to SuperPuna.com.
 
 ESCO data is published under the [EUPL v1.2 licence](https://esco.ec.europa.eu/en/use-esco/esco-data-legal-notice).
+
 
 
 
