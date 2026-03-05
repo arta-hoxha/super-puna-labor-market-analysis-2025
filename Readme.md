@@ -103,9 +103,9 @@ Translated English titles were matched against the **ESCO v1.2 occupation datase
 
 | Stage | Method | Library | Threshold | Titles matched |
 |---|---|---|---|---|
-| Stage 1 | Fuzzy string matching | RapidFuzz | Score ≥ 85 | 1,011 |
-| Stage 2 | Semantic similarity | Sentence-BERT (`all-MiniLM-L6-v2`) | Cosine ≥ 0.50 | 3,088 |
-| Manual | Domain expert overrides | — | — | 678 rows |
+| Stage 1 | Fuzzy string matching | RapidFuzz | Score ≥ 85 | 929 |
+| Stage 2 | Semantic similarity | Sentence-BERT (`all-MiniLM-L6-v2`) | Cosine ≥ 0.50 | 2,545 |
+
 
 Each matched title receives:
 - ESCO preferred occupation label
@@ -230,6 +230,7 @@ Built entirely in Google Colab using open-source tools and free-tier APIs.
 This project is for academic and research purposes. Job posting data belongs to SuperPuna.com.
 
 ESCO data is published under the [EUPL v1.2 licence](https://esco.ec.europa.eu/en/use-esco/esco-data-legal-notice).
+
 
 
 
